@@ -58,6 +58,10 @@ import RoleTestComponent from './components/RoleTestComponent';
 import AppointmentServiceTest from './test/appointmentService.test';
 import AppointmentList from './pages/appointments/AppointmentList';
 import AppointmentComponents from './pages/appointments/AppointmentComponents';
+import PharmacyLandingPage from './pages/pharmacy/PharmacyLandingPage';
+import PharmacyLoginPage from './pages/pharmacy/PharmacyLoginPage';
+import PharmacyRegisterPage from './pages/pharmacy/PharmacyRegisterPage';
+import PharmacyCatalogGate from './pages/pharmacy/PharmacyCatalogGate';
 
 
 /**
@@ -149,6 +153,12 @@ const AppRoutes: React.FC = () => {
               </ProtectedRoute>
             } 
           />
+
+          {/* 🛍️ RUTAS FARMACIA - Accesibles para invitados y usuarios */}
+          <Route path="/pharmacy" element={<PharmacyLandingPage />} />
+          <Route path="/pharmacy/catalog" element={<PharmacyCatalogGate />} />
+          <Route path="/pharmacy/login" element={<PharmacyLoginPage />} />
+          <Route path="/pharmacy/register" element={<PharmacyRegisterPage />} />
           
           {/* 🔐 RUTAS PROTEGIDAS POR ROL - SuperAdmin y Admin */}
           <Route 

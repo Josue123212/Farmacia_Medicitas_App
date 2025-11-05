@@ -9,6 +9,7 @@ import { appointmentService } from '../../services/appointmentService';
 import { doctorService } from '../../services/doctorService';
 import type { ClientDashboardStats } from '../../services/dashboardService';
 import { Calendar, Activity, Users, Heart } from 'lucide-react';
+import FloatingPharmacyCartCTA from '../../components/pharmacy/FloatingPharmacyCartCTA';
 
 
 const ClientDashboard: React.FC = () => {
@@ -77,6 +78,7 @@ const ClientDashboard: React.FC = () => {
             </div>
           </div>
         </div>
+        <FloatingPharmacyCartCTA />
       </Layout>
     );
   }
@@ -93,6 +95,7 @@ const ClientDashboard: React.FC = () => {
             </p>
           </div>
         </div>
+        <FloatingPharmacyCartCTA />
       </Layout>
     );
   }
@@ -406,6 +409,7 @@ const ClientDashboard: React.FC = () => {
           </div>
         </div>
       </div>
+      <FloatingPharmacyCartCTA />
     </Layout>
   );
 };

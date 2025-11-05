@@ -19,6 +19,7 @@ import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Layout from '../../components/layout/Layout';
 import { Modal, useModal } from '../../components/ui/Modal';
 import { AppointmentForm } from '../../components/appointments';
+import FloatingPharmacyCartCTA from '../../components/pharmacy/FloatingPharmacyCartCTA';
 
 // 🎯 Iconos
 import { 
@@ -555,6 +556,7 @@ const MyAppointmentsPage: React.FC = () => {
           />
         </Modal>
       </div>
+      <FloatingPharmacyCartCTA />
     </Layout>
   );
 };

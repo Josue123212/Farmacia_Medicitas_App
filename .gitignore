@@ -316,3 +316,5 @@ static_collected/
 *.tar.gz
 *.rar
 *.7z
+# Ignorar archivos de configuración con secretos
+backend/.env

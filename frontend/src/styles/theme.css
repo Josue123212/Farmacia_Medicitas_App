@@ -47,6 +47,9 @@
   --text-primary: var(--color-secondary-900);
   --text-secondary: var(--color-secondary-600);
   --border: var(--color-secondary-200);
+  /* Texto sobre fondos primarios (ej. gradientes/botones) */
+  --text-on-primary: #ffffff;
+  --text-on-primary-90: rgba(255, 255, 255, 0.9);
 
   /* ===== ESTADOS MÉDICOS ===== */
   --success: #10b981;
@@ -112,4 +115,23 @@
 
 .gradient-hero {
   background: linear-gradient(135deg, var(--primary-light) 0%, var(--background) 100%);
+}
+
+/* ✨ Animaciones utilitarias */
+@keyframes floatSoft {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.fab-animate {
+  animation: floatSoft 3s ease-in-out infinite;
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(6px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.indicator-animate {
+  animation: fadeInUp 400ms ease-out both;
 }

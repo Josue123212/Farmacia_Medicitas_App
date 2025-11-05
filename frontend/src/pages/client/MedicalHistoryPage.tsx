@@ -34,6 +34,7 @@ import { Input } from '../../components/ui/Input';
 import { Badge } from '../../components/ui/Badge';
 import LoadingSpinner from '../../components/ui/LoadingSpinner';
 import Layout from '../../components/layout/Layout';
+import FloatingPharmacyCartCTA from '../../components/pharmacy/FloatingPharmacyCartCTA';
 
 /**
  * 🏥 PÁGINA HISTORIAL MÉDICO - CLIENTE
@@ -460,6 +461,7 @@ const MedicalHistoryPage: React.FC = () => {
         </Card>
       )}
       </div>
+      <FloatingPharmacyCartCTA />
     </Layout>
   );
 };
