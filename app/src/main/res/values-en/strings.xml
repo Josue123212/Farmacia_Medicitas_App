@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Farmacia-Medicitas</string>
+    <string name="catalog_title_offers">Weekly offers</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_cart">Cart</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_profile">Profile</string>
+    <string name="loading_products">Loading products...</string>
+    <string name="action_retry">Retry</string>
+    <string name="empty_products">No products available</string>
+    <string name="action_reload">Reload</string>
+    <string name="products_found_count">%1$d products found</string>
+    <string name="page_indicator">Page %1$d of %2$d</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="banner_content_description">Banner %1$d</string>
+    <string name="product_image_content_description">Image of %1$s</string>
+    <string name="product_not_found">Product not found</string>
+    <string name="price_label">Price: S/. %1$.2f</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="delivery_standard_tomorrow">Standard delivery (tomorrow)</string>
+    <string name="price_simple">S/. %1$.2f</string>
+</resources>
